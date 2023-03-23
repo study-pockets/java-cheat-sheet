@@ -550,7 +550,7 @@ class Actor {
 ### Scope of a Variable
 - Scope of a variable defines where (which part of code) a variable can be accessed.
 
-#### Important Rules
+#### **Important Rules**
 - Static Variable can be used anywhere in the class.
 - Member Variable can be used in any non-static method.
 - Local Variable can be used only in the method where it is declared.
@@ -615,7 +615,7 @@ public class VariablesExample {
 ### Variable Initialization
 - Initialization defines the default value assigned to a variable if it is not initialized.
 
-#### Important Rules
+#### **Important Rules**
 - Member/Static variables are alway initialized with default values.
 - Default values for numeric types is 0, floating point types is 0.0, boolean is false, char  is '\u0000' and for a object reference variable is null.
 - Local variables are not initialized by default by compiler. 
@@ -698,7 +698,7 @@ class Player{
 Wrapper classes are final and immutable.
 
 
-#### Creating Wrapper Classes
+#### Creating Wrapper Classes **Important**
 
 ```java
 Integer number = new Integer(55);//int
@@ -821,6 +821,16 @@ Integer nineD = 9;
 System.out.println(nineC == nineD);//true
 System.out.println(nineC.equals(nineD));//true
 ```
+
+#### Immutable Objects
+* The state of an immutable object cannot be changed
+* Referances can be shared safely across the application
+
+#### Mutable Objects
+* less safe because it can be modified after creation
+* avoid setting two variables equal to each other
+* sharing references can lead to unintended side effects
+
 
 ### String Class
 
