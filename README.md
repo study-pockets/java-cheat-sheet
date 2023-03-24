@@ -2,6 +2,7 @@
 
 * [Introduction](#introduction)
 * [Background](#background)
+* [Popularity of Java](#Popularity of Java)
 
 Review Java 9 Concepts at Jet Speed.
 
