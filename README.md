@@ -1,7 +1,7 @@
 # Java Tutorial For Beginners - A Cheat Sheet
 
-[Introduction](#introduction)
-[Background](#background)
+* [Introduction](#introduction)
+* [Background](#background)
 
 Review Java 9 Concepts at Jet Speed.
 
