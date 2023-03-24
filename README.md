@@ -19,11 +19,13 @@
 * [Variable Initialization](#variable-initialization)
 * [Wrapper Classes](#wrapper-classes)
 * [String Class](#string-class)
-* [Variable Initialization](#variable-initialization)
-* [Variable Initialization](#variable-initialization)
-* [Variable Initialization](#variable-initialization)
-* [Variable Initialization](#variable-initialization)
-
+* [Bitwise operators](#bitwise-operators)
+* [Logical Operators](#logical-operators)
+* [Arrays](#arrays)
+* [If Else Condition](#if-else-condition)
+* [Switch Statement](#switch-statement)
+* [Loops](#loops)
+* [Enum](#enum)
 
 Review Java 9 Concepts at Jet Speed.
 
