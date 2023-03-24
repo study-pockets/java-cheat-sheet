@@ -1,8 +1,13 @@
 # Java Tutorial For Beginners - A Cheat Sheet
 
 * [Introduction](#introduction)
-* [Background](#background)
-* [Popularity of Java](#popularity-of-java)
+* [Platform Independence](#platform-independence)
+* [JDK vs JVM vs JRE](#jdk-vs-jvm-vs-jre)
+* [ClassLoader](#classloader)
+* [First Java Program](#first-java-program)
+* [Using Java and JavaC](#using-java-and-javac)
+* [Class and Object](#class-and-object)
+
 
 Review Java 9 Concepts at Jet Speed.
 
