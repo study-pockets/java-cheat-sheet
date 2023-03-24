@@ -1,7 +1,7 @@
 # Java Tutorial For Beginners - A Cheat Sheet
 
-* [Introduction](#introduction)
-* [Platform Independence](#platform-independence)
+1. [Introduction](#introduction)
+2. [Platform Independence](#platform-independence)
 * [JDK vs JVM vs JRE](#jdk-vs-jvm-vs-jre)
 * [ClassLoader](#classloader)
 * [First Java Program](#first-java-program)
