@@ -26,6 +26,13 @@
 24. [Switch Statement](#switch-statement)
 25. [Loops](#loops)
 26. [Enum](#enum)
+27. [Inheritance](#inheritance)
+28. [Class, Object, State and Behavior](#class-object-state-and-behavior)
+29. [hashCode method](#hashcode-method)
+30. [Abstract Class](#abstract-class)
+31. [Constructors](#constructors)
+32. [Coupling](#coupling)
+33. [Coupling](#coupling)
 
 Review Java 9 Concepts at Jet Speed.
 
