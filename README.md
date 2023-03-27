@@ -32,13 +32,22 @@
 30. [Abstract Class](#abstract-class)
 31. [Constructors](#constructors)
 32. [Coupling](#coupling)
-33. [Coupling](#coupling)
+33. [Cohesion](#cohesion)
+34. [Encapsulation](#encapsulation)
+35. [Interface](#interface)
+36. [Method Overloading](#method-overloading)
+37. [Method Overriding](#method-overriding)
+38. [Class Modifiers](#class-modifiers)
+39. [Final modifier](#final-modifier)
+40. [Static Variables and Methods](#static-variables-and-methods)
+41. [Class Contents](#class-contents)
+42. [Nested Class](#nested-class)
+43. [Variable Arguments](#variable-arguments)
+44. [Variable Arguments](#variable-arguments)
 
 Review Java 9 Concepts at Jet Speed.
 
 ## Introduction
-
-## Background
 
 ### Popularity of Java
 - Platform Independent or Portable
