@@ -43,7 +43,8 @@
 41. [Class Contents](#class-contents)
 42. [Nested Class](#nested-class)
 43. [Variable Arguments](#variable-arguments)
-44. [Variable Arguments](#variable-arguments)
+44. [Exception Handling](#exception-handling)
+45. [Exception Handling](#exception-handling)
 
 Review Java 9 Concepts at Jet Speed.
 
