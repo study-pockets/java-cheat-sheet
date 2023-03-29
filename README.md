@@ -44,7 +44,13 @@
 42. [Nested Class](#nested-class)
 43. [Variable Arguments](#variable-arguments)
 44. [Exception Handling](#exception-handling)
-45. [Exception Handling](#exception-handling)
+45. [Console](#console)
+46. [Format or Printf](#format-or-printf)
+47. [String Buffer & String Builder](#string-buffer-&-string-builder)
+48. [Date](#date)
+49. [Calendar](#calendar)
+50. [Number Format](#number-format)
+51. [Collection Interfaces](#collection-interfaces)
 
 Review Java 9 Concepts at Jet Speed.
 
