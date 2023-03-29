@@ -5129,6 +5129,68 @@ Parsing only number value using number format
 numberFormat.setParseIntegerOnly(true);
 System.out.println(numberFormat.parse("9876.56"));//9876
 ```
+
+### JVM Internal
+
+How below program works based on output you can guess:
+
+```
+public class Superclass {
+    Superclass() {
+        System.out.println("Superclass constructor");
+    }
+}
+
+public class Subclass extends Superclass {
+    static final int STATIC_FINAL = 50; // compile-time const
+    static final int STATIC_FINAL2 = (int) (Math.random() * 5);
+    static {
+        System.out.println("Subclass: static init");
+    }
+
+    Subclass() {
+        System.out.println("Subclass constructor");
+    }
+}
+
+
+public class ClassInitializationDemo {
+    static {
+        System.out.println("ClassInitializationDemo: static init");
+    }
+    {
+        System.out.println("ClassInitializationDemo: instance init");
+    }
+
+    public static void main(String[] args) {
+        System.out.println("Subclass.STATIC_FINAL " + Subclass.STATIC_FINAL);
+        System.out.println("Subclass.STATIC_FINAL2 " + Subclass.STATIC_FINAL2);
+        new Subclass();
+    }
+}
+
+Output:
+ClassInitializationDemo: static init
+Subclass.STATIC_FINAL 50
+Subclass: static init
+Subclass.STATIC_FINAL2 2
+Superclass constructor
+Subclass constructor
+```
+
+#### JVM Core responsibilities
+* Loading and interpreting bytecode
+* Security
+* Automatic memory management
+
+> There are several JVM implementation like Oracle's hotspot jvm, IBM's JVM
+
+#### Performance
+* Bytecode interpretation is much faster. Bytecode is compact, compiled and optimized.
+* JIT (Just-in-time) compilation
+
+
+
 ### Collection Interfaces
 - Arrays are not dynamic. Once an array of a particular size is declared, the size cannot be modified. To add a new element to the array, a new array has to be created with bigger size and all the elements from the old array copied to new array. Collections are used in situations where data is dynamic. Collections allow adding an element, deleting an element and host of other operations. There are a number of Collections in Java allowing to choose the right Collection for the right context. Before looking into Collection classes, let's take a quick look at all the important collection interfaces and the operations they allow. 
 
